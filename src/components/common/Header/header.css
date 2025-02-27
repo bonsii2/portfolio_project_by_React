@@ -4,6 +4,7 @@
     align-items: center;
     padding: 1rem;
     /* max-width: 80%; */
+
     
 
 }
@@ -20,7 +21,7 @@ a:hover{
     color: var(--primaryColor);
 
 }
-button{
+.header_button{
     border: none;
     outline: none;
     background: none;
@@ -30,6 +31,7 @@ button{
     padding: 15px 20px;
     border-radius: 40px; 
     cursor: pointer;
+    display: none;
 }
 header a{
     margin-left: 40px;
@@ -75,7 +77,7 @@ header a{
    .hiddenMenu a{
     text-decoration: none;
    }
-   button{
+   .header_button{
     background: none;
     
    }

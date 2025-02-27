@@ -20,3 +20,8 @@ body{
   color: var(--white);
   font-family: "poppins", sans-serif;
 }
+p{
+  color: var(--silver);
+  margin: 20px 0;
+  line-height: 30px;
+}
