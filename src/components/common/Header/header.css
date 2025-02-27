@@ -1,9 +1,21 @@
+header{
+    position: sticky;
+    height: 10vh;
+    top: 0;
+    background-color: var(--primaryBackground);
+    z-index: 100;
+
+}
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
     /* max-width: 80%; */
+    position: sticky;
+    height: 10vh;
+    top: 0;
+    
 
     
 

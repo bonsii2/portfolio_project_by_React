@@ -17,7 +17,7 @@ const Header = () => {
           <div className={responsive ? "hiddenMenu" : "nav_link"}>
               <NavLink url="/" text="Home"/>
               <NavLink url="/about" text="About"/>
-              <NavLink url="/service" text="Service"/>
+              <NavLink url="/services" text="Service"/>
               <NavLink url="/portfolio" text="Portfolio"/>
               <NavLink url="/testimonials" text="Testimonials"/>
               <NavLink url="/blogs" text="Blogs"/>

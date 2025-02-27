@@ -25,3 +25,10 @@ p{
   margin: 20px 0;
   line-height: 30px;
 }
+button{
+  background: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  
+}

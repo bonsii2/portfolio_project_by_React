@@ -1,0 +1,33 @@
+.About{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primaryBackground)
+    
+}
+
+.About_container{
+    display: flex;
+}
+.backButton{
+    margin-right: 1rem;
+    background-color: var(--primaryColor);
+    color: black;
+}
+.backButton:hover{
+    background-color: inherit;
+    border: 2px solid var(--primaryColor);
+    color: var(--silver);
+}
+.heading_content{
+    font-size: 2rem;
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+.left_container{
+    width: 35%;
+
+}
+.right_container{
+    width: 65%;
+}
