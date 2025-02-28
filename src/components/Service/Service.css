@@ -27,6 +27,13 @@
     grid-template-columns: repeat(4,1fr);
 
 }
+.counterhero{
+    position: absolute;
+    width: 100%;
+    margin-bottom: 6rem;
+    z-index: 0;
+   
+}
 .Counter_countainer{
     margin: auto;
     padding: 3rem;
@@ -47,6 +54,9 @@
 }
 .counter_box h3{
     font-size: 0.8rem;
+}
+.counter{
+    margin-bottom: 7rem;
 }
 
 

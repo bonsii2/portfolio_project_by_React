@@ -7,6 +7,8 @@ import {BrowserRouter, Routes, Route,} from "react-router-dom";
 import Contact from '../contact/Contact';
 import About from '../About/About';
 import Service from '../Service/Service';
+import Portfolio from '../portfolio/Portfolio'
+import Testimonials from '../Testimonials/Testimonials';
 
  const Page =() =>{
     return (
@@ -17,6 +19,8 @@ import Service from '../Service/Service';
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Service />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/testimonials" element={<Testimonials />} />
           </Routes>
         </BrowserRouter>
       </>
