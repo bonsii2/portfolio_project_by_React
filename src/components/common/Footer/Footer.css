@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    font-size: 1rem;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer i{
+    color: var(--primaryColor);
+}
+.ftext{
+    display: flex;
+    gap: 1rem;
+    /* flex-direction: column; */
+
+}

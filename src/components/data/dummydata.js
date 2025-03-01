@@ -184,7 +184,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b1.png",
+    cover: require("../images/blog/b1.png"),
   },
   {
     id: 2,
@@ -192,7 +192,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b2.png",
+    cover: require("../images/blog/b2.png"),
   },
   {
     id: 3,
@@ -200,7 +200,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b3.png",
+    cover: require("../images/blog/b3.png"),
   },
 ]
 export const contact = [

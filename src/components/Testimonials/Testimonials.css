@@ -5,6 +5,8 @@
     align-items: center;
     text-align: center;
     padding: 3rem;
+    z-index: 1;
+    
     /* background-image: url(../images/testimonials-bg.png);
     background-size: cover;
     background-position: center; */
