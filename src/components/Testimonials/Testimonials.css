@@ -4,13 +4,28 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 3rem;
+    /* background-image: url(../images/testimonials-bg.png);
+    background-size: cover;
+    background-position: center; */
 }
 .testimonial::after{
     background-image: url(../images/testimonials-bg.png);
 }
 .testimonial .box{
-    max-width: 60%;
+    width: 100%;
+    max-width: 800px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.testimonial_container{
+    display: block;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 100%;
 }
 .testimonial i{
     background-color: var(--white);
